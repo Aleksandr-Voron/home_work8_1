@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  padding: 90px 0;
+  background: #e5e5e5;
+}
+
+.main__baner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 736px;
+  height: 540px;
+  background: url(../images/Car.jpg) center center no-repeat;
+}
+
+.main__baner .date {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 10px;
+}
+
+.baner__title {
+  padding-left: 25px;
+  padding-bottom: 15px;
+  max-width: 445px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.wrap__list {
+  display: flex;
+  background: #fff;
+}
+
+.row__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.img__item img {
+  max-width: 100%;
+}
+
+.date {
+  padding: 25px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #818181;
+}
+
+.img__title {
+  max-width: 325px;
+  flex: 1 1 145px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+
+.icon {
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+.mg__bottom {
+  margin-bottom: 25px;
+}
