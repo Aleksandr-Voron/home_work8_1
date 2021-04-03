@@ -23,6 +23,7 @@ body {
 }
 
 .main__baner .date {
+  min-height: 539px;
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
@@ -47,6 +48,7 @@ body {
 }
 
 .row__list {
+  min-height: 539px;
   display: flex;
   flex-direction: column;
 }
@@ -64,7 +66,7 @@ body {
 
 .img__title {
   max-width: 325px;
-  flex: 1 1 145px;
+  flex: 1 1 auto;
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
